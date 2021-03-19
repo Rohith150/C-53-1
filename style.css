@@ -1,0 +1,87 @@
+.mainContent{font-family: cursive}
+
+h1{color: orangered}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+    padding: 15px;
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 310px;
+    font-family: fantasy;
+    margin: 25px;
+}
+
+body{
+    background-color: #f5f5f5;
+    margin: 0px;
+}
+
+.about{
+    font-size: 20px;
+}
+
+.about a:link{
+    color: #000000;
+}
+
+.about a:visited{
+    color: #000000;
+}
+
+.follow a:link{
+    color: #000000;
+}
+
+.follow a:visited{
+    color: #000000;
+}
+
+.origami :hover{
+    transform: scale(1.2)
+}
+
+.bodyImg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyImg p{
+    font-family: sans-serif;
+    color: #ffffff;
+    position: absolute;
+    margin-top: -300px;
+    font-size: 30px;
+}
+
+.bodyImg h3{
+    font-family: sans-serif;
+    color: #ffffff;
+    position: absolute;
+    margin-top: -100px;
+    padding: 200px;
+}
